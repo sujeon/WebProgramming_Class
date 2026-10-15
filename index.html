@@ -1,18 +1,68 @@
 <!DOCTYPE html>
-<html>
-    <head>
-    <meta charset="UTF-8">
-    <style type="text/css">
-        p{font-size: 10pt}
-        a:link {color:blue};
-        a:visited {color:purple;}
-        h3:before{content :"★"; color:yellow;}
-        h3:after{content:"(ⓒsblim)"; font-size: 8pt}
-    </style>
-    </head>
-    <body>
-        <h3><strong>스타일시트</strong>이해하기</h3>
-        <p>이 예제는 <strong>CSS</strong>의 개념을 설명합니다.</p>
-        <p>선택자에 <a href="https://www.w3schools.com/css/">가상클래스</a>와 <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">선택자 조합</a>를 적용하여 스타일을 지정합니다.</p>
-    </body>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="천사지기의 게임 제작과 교육에 관한 활동 이력서">
+  <title>천사지기 | 게임과 배움을 잇는 개발</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 이동</a>
+  <div class="page">
+    <header id="top">
+      <div class="topline"><span class="wordmark">천사지기<span class="dot">.</span></span><a class="github" href="https://github.com/sujeon">GitHub <span aria-hidden="true">↗</span></a></div>
+      <div class="hero">
+        <div><p class="eyebrow">게임 제작 · 교육</p><h1>게임과 배움을<br>잇는 <span>천사지기</span></h1><p class="affiliation">상명대학교 소프트웨어학과 3학년</p><p class="intro">게임 제작과 교육을 접목해 새로운 배움의 경험을 만들고 싶습니다.</p></div>
+        <div class="illustration" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="star star-one">✦</span><span class="star star-two">✧</span><div class="planet"></div><div class="planet-ring"></div><span class="illustration-label">PLAY. LEARN. CREATE.</span></div>
+      </div>
+      <nav aria-label="페이지 영역"><a href="#achievements">실적</a><a href="#courses">수강 과목</a><a href="#weekly">주차별 실습</a></nav>
+    </header>
+    <main id="main">
+      <section id="achievements" aria-labelledby="achievements-title">
+        <div class="section-heading"><div><p class="eyebrow">01 / EXPERIENCE</p><h2 id="achievements-title">만들고, 배우고, 도전한 기록</h2></div><span class="section-note">최신순 · 4개의 실적</span></div>
+        <div class="table-scroll" role="region" aria-label="실적 표 가로 스크롤" tabindex="0"><table><caption class="sr-only">시기 역순으로 정리한 실적과 본인 역할</caption><thead><tr><th scope="col">시기</th><th scope="col">분류</th><th scope="col">내용</th><th scope="col">본인 역할</th></tr></thead><tbody>
+          <tr><td>2026.06</td><td><span class="badge">프로젝트</span></td><td>유니티를 활용한 우리 동네 우주센터 게임 제작</td><td>1인 개발</td></tr>
+          <tr><td>2020.11</td><td><span class="badge">활동</span></td><td>스마트게임&amp;콘텐츠융합전공 합격</td><td>면접자</td></tr>
+          <tr><td>2019.10</td><td><span class="badge">교육</span></td><td>소프트웨어-넷마블 직무특강 이수</td><td>멘티</td></tr>
+          <tr><td>2017.11</td><td><span class="badge">프로젝트</span></td><td>물리학 및 우주를 공부할 수 있는 보드게임 발표<span class="detail">고등학교 시절 실적</span></td><td>기획 및 제작, 규칙 설정</td></tr>
+        </tbody></table></div>
+      </section>
+      <section id="courses" aria-labelledby="courses-title">
+        <div class="section-heading"><div><p class="eyebrow">02 / LEARNING</p><h2 id="courses-title">이번 학기에 배우는 것</h2></div><span class="section-note">2026년 2학기</span></div>
+        <ul class="course-list">
+          <li><span>임베디드IoT프로그래밍(PBL)</span><span class="course-type">전공 · 전공심화</span></li>
+          <li><span>인공지능기초</span><span class="course-type">전공 · 융합전공선택</span></li>
+          <li><span>게임엔진2</span><span class="course-type">전공 · 융합전공선택</span></li>
+          <li><span>3D컴퓨터그래픽스Ⅲ(SW)</span><span class="course-type">전공 · 융합전공선택</span></li>
+          <li><span>영상처리(PBL)</span><span class="course-type">전공 · 전공선택</span></li>
+          <li><span>3D컴퓨터그래픽스Ⅰ(SW)</span><span class="course-type">전공 · 융합전공선택</span></li>
+          <li class="featured-course"><a href="#weekly">웹프로그래밍 및 AI에이전트 활용 <span aria-hidden="true">↘</span></a><span class="course-type">전공 · 전공선택</span></li>
+        </ul>
+      </section>
+      <section id="weekly" aria-labelledby="weekly-title">
+        <div class="section-heading"><div><p class="eyebrow">03 / WEB PROGRAMMING</p><h2 id="weekly-title">웹프로그래밍 주차별 실습</h2></div><span class="section-note">1–15주차</span></div>
+        <p class="section-description">주차별 실습을 차근차근 기록합니다. 실습 페이지가 준비되면 해당 주차에 연결됩니다.</p>
+        <ul class="week-grid">
+          <li class="week planned"><span>01<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>02<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>03<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>04<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>05<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>06<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>07<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>08<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>09<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>10<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>11<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>12<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>13<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>14<small>주차</small></span><span class="status">예정</span></li>
+          <li class="week planned"><span>15<small>주차</small></span><span class="status">예정</span></li>
+        </ul>
+      </section>
+    </main>
+    <footer><span>천사지기 · 게임과 배움을 잇는 개발</span><span>최종 수정일: <time datetime="2026-10-15">2026-10-15</time></span><a href="#top">맨 위로 ↑</a></footer>
+  </div>
+</body>
 </html>
