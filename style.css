@@ -32,3 +32,6 @@
 
 /* Consistent number size on every stage, including milestone cards. */
 .week>a,.week>span:not(.status):not(.week-marker){font:700 25px Consolas,monospace;font-variant-numeric:tabular-nums}
+
+/* The upcoming exam uses the same planned stage appearance. */
+.week.planned .status{text-align:right}.week.planned .week-note{color:inherit}
