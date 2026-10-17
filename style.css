@@ -35,3 +35,45 @@
 
 /* The upcoming exam uses the same planned stage appearance. */
 .week.planned .status{text-align:right}.week.planned .week-note{color:inherit}
+
+/* Larger typography and breathing room throughout the resume. */
+body{font-size:17px;line-height:1.8}
+.wordmark{font-size:27px}.github{font-size:16px;padding:10px 20px}
+h1{font-size:clamp(42px,4.8vw,64px)}
+.affiliation{font-size:19px}.intro{font-size:18px;max-width:580px}
+.eyebrow{font-size:14px}.illustration-label{font-size:12px}
+nav a{font-size:16px;padding:9px 18px}
+h2{font-size:29px}.section-note{font-size:15px}
+table{font-size:17px}th{font-size:15px;padding:17px}td{padding:22px 17px}
+td:nth-child(3){min-width:300px}td:last-child{min-width:150px}
+.badge{font-size:14px;padding:5px 10px}.detail{font-size:14px}
+.course-list{grid-template-columns:1fr}.course-list li{font-size:17px;padding:21px 20px;gap:18px}.course-type{font-size:14px}
+.section-description{font-size:17px}
+.week-grid{gap:16px}.week{min-height:116px;padding:30px 14px 20px}
+.week:before{font-size:11px;top:9px;left:14px;letter-spacing:1px}
+.week>a,.week>span:not(.status):not(.week-marker){font:700 30px Consolas,monospace;font-variant-numeric:tabular-nums}
+.week small{font-size:13px;margin-left:5px}.status{font-size:13px}.week.completed .status:after{font-size:15px}
+.week-marker,.week>.week-marker:first-child{font:700 11px Consolas,monospace;top:9px;left:14px;letter-spacing:1px}
+.week.orientation,.week.exam,.week.holiday{padding-top:30px}
+.week-note,.holiday-note{font-size:12px;line-height:1.6}
+.progress-heading label{font-size:14px}.progress-heading strong{font-size:30px}.progress-heading strong span{font-size:14px}
+.stage-progress p{font-size:14px}.stage-progress progress{height:16px}
+footer{font-size:14px}.back-to-top{font-size:13px;min-width:68px;min-height:68px}.back-to-top>span:first-child{font-size:27px}
+@media(max-width:1100px){.week-grid{grid-template-columns:repeat(4,1fr)}}
+@media(max-width:760px){h1{font-size:44px}h2{font-size:26px}.affiliation{font-size:18px}.intro{font-size:17px}.week-grid{grid-template-columns:repeat(3,1fr)}.section-heading{gap:10px}}
+@media(max-width:560px){h1{font-size:42px}h2{font-size:25px}.wordmark{font-size:25px}.github{font-size:15px;padding:9px 15px}nav{flex-wrap:wrap}nav a{font-size:15px;padding:9px 12px}.week-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.week{padding-right:12px;padding-left:12px}.course-list li{font-size:17px;padding:18px 16px;gap:8px;overflow-wrap:anywhere}.section-note{white-space:normal}.progress-heading label{font-size:13px}.back-to-top{min-width:60px;min-height:60px}}
+
+/* Native radio controls filter the table without JavaScript. */
+.achievement-filters{display:flex;flex-wrap:wrap;gap:10px;border:0;padding:0;margin:0 0 20px;min-width:0}
+.achievement-filters legend{font-size:14px;color:var(--muted);padding:0;margin-bottom:10px}
+.filter-option{position:relative}.filter-option input{position:absolute;width:1px;height:1px;margin:0;overflow:hidden;clip-path:inset(50%)}
+.filter-option label{display:flex;align-items:center;gap:10px;min-height:46px;padding:9px 17px;border:1px solid #52628a;border-radius:7px;background:#111a31;color:#c5cde3;font-size:16px;font-weight:700;cursor:pointer}
+.filter-option label span{font:14px Consolas,monospace;color:inherit;opacity:.85}
+.filter-option label:hover{border-color:var(--accent);color:var(--accent)}
+.filter-option input:checked+label{border-color:#a4eaff;background:linear-gradient(130deg,#41336f,#1b4058);color:#effcff;box-shadow:0 0 14px #75e4ff38}
+.filter-option input:focus-visible+label{outline:3px solid var(--accent);outline-offset:4px}
+#achievements:has(#filter-project:checked) tbody tr:not([data-category="project"]),#achievements:has(#filter-activity:checked) tbody tr:not([data-category="activity"]),#achievements:has(#filter-education:checked) tbody tr:not([data-category="education"]){display:none}
+@media(max-width:560px){.achievement-filters{gap:8px}.filter-option label{font-size:15px;padding:9px 12px}}
+
+/* Award and qualification filters follow the same native radio interaction. */
+#achievements:has(#filter-award:checked) tbody tr:not([data-category="award"]),#achievements:has(#filter-qualification:checked) tbody tr:not([data-category="qualification"]){display:none}
