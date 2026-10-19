@@ -80,3 +80,8 @@ footer{font-size:14px}.back-to-top{font-size:13px;min-width:68px;min-height:68px
 
 /* Layout and unit text presentation belong to the external stylesheet. */
 h1 .title-line{display:block;color:inherit;text-shadow:none}h1 .title-accent{color:var(--violet);text-shadow:0 0 32px #a48aff33}
+
+/* Presentation and award evidence links retain native keyboard navigation. */
+.evidence-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:14px}.evidence-link{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:7px 12px;border:1px solid #8fdcf0;border-radius:6px;background:#172d44;color:#c6f5ff;font-size:14px;font-weight:700;text-decoration:none}.evidence-photo{border-color:#b39aff;background:#2b2545;color:#e2d6ff}.evidence-link:hover{border-color:#dcfbff;background:#29415e;color:#fff;box-shadow:0 0 14px #75e4ff44}.evidence-link:focus-visible{outline:3px solid var(--accent);outline-offset:4px}
+
+.action-icon{display:inline-flex;align-items:center;justify-content:center;width:20px;min-width:20px;font:700 18px Consolas,monospace;line-height:1}.evidence-link{line-height:1.6}
