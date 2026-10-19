@@ -22,15 +22,15 @@
 
 | ID | 확인 방법 | 결과 | 근거 |
 |---|---|---|---|
-| F-01 | ① 활동명 확인. ② 현재 소속 표시 확인. ③ 관심 분야를 담은 한 줄 소개 및 50자 이내 표시 확인. ④ 창 너비 1280px에서 스크롤 없이 첫 화면에 보임 확인.  | Pass |[캡쳐](images/Check_F01.png) |
-| F-02 | ① header에 Github 프로필 링크 표시 ② 클릭 후 프로필 이동 확인  . ③ 홈페이지 소스에서 이메일·전화번호 등 별도 연락처 유무 확인 | Pass | [캡쳐](images/Check_F02_1.png) [캡쳐](images/Check_F02_2.png) |
-| F-03 | ① 실적 수 4개 이상 및 2개의 고교 시절 실적 ② 실적마다 시기, 분류, 내용, 역할 표시 ③ 분류 허용 범위 내 표시 ④ 최신 실적이 위에 오도록 시기 역순 정렬 완료 ⑤ 표(table)로 표시 확인 | Pass | [캡쳐](images/Check_F03.png) |
-| F-04 | ① 시간표와 나열된 교과목의 일치 확인. ② 각 과목의 전공/교양 표시 확인. ③ 본 과목의 #weekly 링크 확인. | Pass | [캡쳐](images/Check_F04_1.png) [캡쳐](images/Check_F04_2.png) [캡쳐](images/Check_F04_3.png) |
-| F-05 | ① 1~15주차 표시 확인. ② 2·3·5·6·7주차가 doc02·03·05·06·07.html에 연결되는지 소스 확인. ③ 나머지 주차의 문구와 링크 유무 확인. ④ 실습과 예정의 CSS 색상 구분 확인. | Pass | [캡쳐](images/Check_F05_1.png) [캡쳐](images/Check_F05_2.png) [캡쳐](images/Check_F05_3.png) [캡쳐](images/Check_F05_4.png) [캡쳐](images/Check_F05_5.png) [캡쳐](images/Check_F05_6.png) |
-| F-06 | ① footer의 최종 수정일 형식과 time 요소 확인. ② 최신 배포 저장소 커밋의 한국 날짜와 비교 확인. | Pass | [캡쳐](images/Check_F06_1.png) [캡쳐](images/Check_F06_2.png) |
-| Q-HTML | W3C HTML 검사기로 배포URL 검사. 오류 0 확인. | Pass | [캡쳐](images/Check_Q-HTML.png) |
-| Q-CSS | W3C CSS 검사기(https://jigsaw.w3.org/css-validator/)로 검사. 오류 0 확인.  인라인 스타일 없음 확인. 표현용 태그 없음. 창 크기 변경 확인. | Pass | [캡쳐](images/Check_Q-CSS_1.png) [캡쳐](images/Check_Q-CSS_2.png) [캡쳐](images/Check_Q-CSS_3.png) [캡쳐](images/Check_Q-CSS_4.png) [캡쳐](images/Check_Q-CSS_5.png)  [캡쳐](images/Check_Q-CSS_6.png) [캡쳐](images/Check_Q-CSS_7.png) [캡쳐](images/Check_Q-CSS_8.png) |
-| Q-DEPLOY | 배포 URL 정상 동작 확인. 깨진 링크, 이미지, 영상 없음 확인. | Pass | [캡쳐](images/Check_Q-DEPLOY_1.png) [캡쳐](images/Check_Q-DEPLOY_2.png) [캡쳐](images/Check_Q-DEPLOY_3.png) [캡쳐](images/Check_Q-DEPLOY_4.png) [캡쳐](images/Check_F05_2.png) [캡쳐](images/Check_F05_3.png) [캡쳐](images/Check_F05_4.png) [캡쳐](images/Check_F05_5.png) [캡쳐](images/Check_F05_6.png) |
+| F-01 | ① 활동명 확인. ② 현재 소속 표시 확인. ③ 관심 분야를 담은 한 줄 소개 및 50자 이내 표시 확인. ④ 창 너비 1280px에서 스크롤 없이 첫 화면에 보임 확인.  | Pass |[1280px 확인](images/Check_F01.png) |
+| F-02 | ① header에 Github 프로필 링크 표시 ② 클릭 후 프로필 이동 확인  . ③ 홈페이지 소스에서 이메일·전화번호 등 별도 연락처 유무 확인 | Pass | [header 깃허브](images/Check_F02_1.png) [깃허브 이동코드](images/Check_F02_2.png) [소스 내 연락처 x(1)](images/Check_F02_3.png) [소스 내 연락처 x(2)](images/Check_F02_4.png) |
+| F-03 | ① 실적 수 4개 이상 및 2개의 고교 시절 실적 ② 실적마다 시기, 분류, 내용, 역할 표시 ③ 분류 허용 범위 내 표시 ④ 최신 실적이 위에 오도록 시기 역순 정렬 완료 ⑤ 표(table)로 표시 확인 | Pass | [실적표 1](images/Check_F03_1.png) [실적표 2](images/Check_F03_2.png) |
+| F-04 | ① 시간표와 나열된 교과목의 일치 확인. ② 각 과목의 전공/교양 표시 확인. ③ 본 과목의 #weekly 링크 확인. | Pass | [시간표](images/Check_F04_1.png) [캡쳐](images/Check_F04_2.png) [주소 옆 #weekly 확인](images/Check_F04_3.png) [#weekly 연결](images/Check_F04_4.png) |
+| F-05 | ① 1~15주차 표시 확인. ② 2·3·5·6·7주차가 doc02·03·05·06·07.html에 연결되는지 소스 확인. ③ 나머지 주차의 문구와 링크 유무 확인. ④ 실습과 예정의 CSS 색상 구분 확인. | Pass | [캡쳐 및 색상 구분](images/Check_F05_1.png) [2주차](images/Check_F05_2.png) [3주차](images/Check_F05_3.png) [5주차](images/Check_F05_4.png) [6주차](images/Check_F05_5.png) [7주차](images/Check_F05_6.png) [예정 주차 링크 없음](images/Check_F05_7.png) |
+| F-06 | ① footer의 최종 수정일 형식과 time 요소 확인. ② 최신 배포 저장소 커밋의 한국 날짜와 비교 확인. | Pass | [깃허브 내 커밋 날짜](images/Check_F06_1.png) [footer 내 요소 확인](images/Check_F06_2.png) |
+| Q-HTML | W3C HTML 검사기로 배포URL 검사. 오류 0 확인. | Pass | [HTML 검사기 확인](images/Check_Q-HTML.png) |
+| Q-CSS | W3C CSS 검사기(https://jigsaw.w3.org/css-validator/)로 검사. 오류 0 확인.  인라인 스타일 없음 확인. 표현용 태그 없음. 창 크기 변경 확인. | Pass | [CSS 검사기 확인](images/Check_Q-CSS_1.png) [코드 내 인라인 style 없음 (1)](images/Check_Q-CSS_2.png) [코드 내 인라인 style 없음 (2)](images/Check_Q-CSS_3.png) [창크기 변경 1](images/Check_Q-CSS_4.png) [창크기 변경 2](images/Check_Q-CSS_5.png)  [창크기 변경 3](images/Check_Q-CSS_6.png) [창크기 변경 4](images/Check_Q-CSS_7.png) [창크기 변경 5](images/Check_Q-CSS_8.png) [창크기 변경 6](images/Check_Q-CSS_9.png) [외부 css 1](images/Check_Q-CSS_10.png) [외부 css 2](images/Check_Q-CSS_11.png) |
+| Q-DEPLOY | 배포 URL 정상 동작 확인. 깨진 링크, 이미지, 영상 없음 확인. | Pass | [링크 이동 1](images/Check_Q-DEPLOY_1.png) [링크 이동 2](images/Check_Q-DEPLOY_2.png) [동영상](images/Check_Q-DEPLOY_3.png) [실적 내 링크들](images/Check_Q-DEPLOY_4.png) [2주차 정상동작](images/Check_F05_2.png) [3주차 정상동작](images/Check_F05_3.png) [5주차 정상동작](images/Check_F05_4.png) [6주차 정상동작](images/Check_F05_5.png) [7주차 정상동작](images/Check_F05_6.png) |
 
 ---
 
@@ -66,7 +66,7 @@
 
 | ID | 확인 방법 | 결과 | 근거 |
 |---|---|---|---|
-| A-01 | ① 오른쪽 아래 맨 위로 버튼 확인. 끝까지 내린 후 맨 위로 버튼 클릭 시 맨 위로 링크 확인. ② F-01 구역 내 주차 버튼 3개 확인. 주차 버튼 3개 클릭 시 각 주차 위치로 이동 확인. ③ 본 과목 버튼 내 css 스타일 ::after 확인. | Pass | [캡쳐](images/Check_A01_1.png) [캡쳐](images/Check_A01_2.png) [캡쳐](images/Check_A01_3.png) [캡쳐](images/Check_F02_1.png) | 
-| A-02 | ①~③ 소스의 목적지 및 로컬 WebM 존재 확인. 클릭 시 itch.io 이동, 웹사이트, 영상 재생 확인.  | Pass | [캡쳐](images/Check_Q-DEPLOY_1.png) [캡쳐](images/Check_Q-DEPLOY_2.png) [캡쳐](images/Check_Q-DEPLOY_3.png)  [캡쳐](images/Check_A02.png) |
-| A-03 | ①~② 실적 표 위 6개의 버튼 및 이름, 갯수 확인. ③ 분류 버튼 클릭 시 분류에 맞는 실적 분리 확인. | Pass | [캡쳐](images/Check_F03.png) [캡쳐](images/Check_A03_1.png) [캡쳐](images/Check_A03_2.png) [캡쳐](images/Check_A03_3.png) [캡쳐](images/Check_A03_4.png) [캡쳐](images/Check_A03_5.png) |
-| A-04 | ①~② 15개 칸 표시, 1주차 OT, 실습 , 추석 휴식 포함 진행도 표시 확인. ③ 구분된 OT와 추석 위 단어 확인. ④ 마우스 커서를 올릴 시 hover효과, Tab키 시 초점 강조 표시 확인. | Pass | [캡쳐](images/Check_F06_2.png) [캡쳐](images/Check_A04_1.png) [캡쳐](images/Check_A04_2.png) |
+| A-01 | ① 오른쪽 아래 맨 위로 버튼 확인. 끝까지 내린 후 맨 위로 버튼 클릭 시 맨 위로 링크 확인. ② F-01 구역 내 주차 버튼 3개 확인. 주차 버튼 3개 클릭 시 각 주차 위치로 이동 확인. ③ 본 과목 버튼 내 css 스타일 ::after 확인. | Pass | [오른쪽아래 맨위로 버튼](images/Check_A01_1.png) [fixed 고정](images/Check_A01_2.png) [맨위로 이동 #top 확인](images/Check_A01_3.png) [id=top 이동링크 확인](images/Check_A01_4.png) [F01 위치 주차버튼 확인](images/Check_F02_1.png) [이동 링크 확인](images/Check_A01_5.png) [실적으로 이동](images/Check_A01_6.png) [수강과목으로 이동](images/Check_A01_7.png) [주차로 이동](images/Check_F04_4.png) [본 과목 :after 확인](images/Check_A01_8.png) | 
+| A-02 | ①~③ 소스의 목적지 및 로컬 WebM 존재 확인. 클릭 시 itch.io 이동, 웹사이트, 영상 재생 확인.  | Pass | [itch.io 이동](images/Check_Q-DEPLOY_1.png) [웹사이트 이동](images/Check_Q-DEPLOY_2.png) [동영상 재생](images/Check_Q-DEPLOY_3.png)  [소스 내 링크 확인](images/Check_Q-DEPLOY_4.png) |
+| A-03 | ①~② 실적 표 위 6개의 버튼 및 이름, 갯수 확인. ③ 분류 버튼 클릭 시 분류에 맞는 실적 분리 확인. | Pass | [6개의 분류 버튼](images/Check_F03_1.png) [프로젝트](images/Check_A03_1.png) [활동](images/Check_A03_2.png) [교육](images/Check_A03_3.png) [수상](images/Check_A03_4.png) [자격](images/Check_A03_5.png) |
+| A-04 | ①~② 15개 칸 표시, 1주차 OT, 실습 , 추석 휴식 포함 진행도 표시 확인. ③ 구분된 OT와 추석 위 단어 확인. ④ 마우스 커서를 올릴 시 hover효과, Tab키 시 초점 강조 표시 확인. | Pass | [1~15주차 칸 표시 / 진행도 표시 / 실습, 휴강 구분 표시](images/Check_F05_1.png) [초점 강조 및 hover 효과 확인](images/Check_A04.png) |
